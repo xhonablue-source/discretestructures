@@ -1,0 +1,141 @@
+# MathCraft Discrete Structures Module Dependencies
+# Core Framework
+streamlit>=1.28.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization Libraries
+matplotlib>=3.7.0
+plotly>=5.15.0
+seaborn>=0.12.0
+
+# Graph Theory and Network Analysis
+networkx>=3.1.0
+igraph>=0.10.0
+graph-tool>=2.45.0
+
+# Logic and Boolean Algebra
+sympy>=1.12.0
+python-sat>=1.8.0
+pyeda>=0.28.0
+
+# Interactive Widgets and UI
+streamlit-plotly-events>=0.0.6
+streamlit-aggrid>=0.3.4
+streamlit-option-menu>=0.3.6
+streamlit-elements>=0.1.0
+
+# Set Theory and Combinatorics
+itertools-recipes>=1.0.0
+more-itertools>=10.1.0
+combinatorics>=0.1.0
+
+# Digital Logic Simulation
+pylogic>=0.2.0
+digitallogic>=0.5.0
+
+# File Processing and Data Management
+openpyxl>=3.1.0
+xlsxwriter>=3.1.0
+PyPDF2>=3.0.0
+json5>=0.9.0
+
+# Mathematical Computing
+scipy>=1.11.0
+scikit-learn>=1.3.0
+
+# Cryptography and Security
+cryptography>=41.0.0
+pycryptodome>=3.18.0
+
+# Database Connections (for set theory applications)
+sqlite3>=3.42.0
+sqlalchemy>=2.0.0
+
+# Web Scraping & APIs (for real network data)
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# Image Processing (for graph visualization)
+Pillow>=10.0.0
+opencv-python>=4.8.0
+
+# Development Tools
+jupyter>=1.0.0
+ipython>=8.14.0
+
+# Testing Framework
+pytest>=7.4.0
+pytest-streamlit>=0.1.0
+
+# Documentation
+sphinx>=7.1.0
+sphinx-rtd-theme>=1.3.0
+
+# Deployment
+gunicorn>=21.2.0
+
+# Advanced Visualization for Networks
+bokeh>=3.2.0
+altair>=5.0.0
+plotnine>=0.12.0
+
+# Logic Programming Extensions
+pyswip>=0.2.10
+python-constraint>=1.4.0
+
+# Graph Algorithms and Analysis
+graph-algorithms>=1.0.0
+community>=1.0.0
+cdlib>=0.2.0
+
+# Discrete Mathematics Libraries
+discrete-math>=1.0.0
+combinatorial-math>=0.8.0
+
+# Optional Dependencies for Advanced Features
+# Uncomment as needed for specific applications
+
+# Advanced Graph Analysis
+# pygraphviz>=1.11.0
+# python-louvain>=0.16.0
+# karateclub>=1.3.0
+
+# Formal Verification Tools
+# z3-solver>=4.12.0
+# cvc5>=1.0.0
+
+# Game Theory and Economics
+# nashpy>=0.0.35
+# gambit>=16.1.0
+
+# Quantum Computing (for quantum logic gates)
+# qiskit>=0.44.0
+# cirq>=1.2.0
+
+# Machine Learning for Discrete Structures
+# torch-geometric>=2.3.0
+# dgl>=1.1.0
+# spektral>=1.2.0
+
+# Natural Language Processing (for logic parsing)
+# nltk>=3.8.0
+# spacy>=3.6.0
+
+# Computer Vision (for visual logic recognition)
+# mediapipe>=0.10.0
+# tensorflow>=2.13.0
+
+# Database Extensions
+# psycopg2>=2.9.0
+# pymongo>=4.5.0
+# redis>=4.6.0
+
+# Parallel Computing for Large Networks
+# dask>=2023.8.0
+# ray>=2.6.0
+# multiprocessing-logging>=0.3.0
+
+# Version Constraints for Stability
+# Ensure compatibility across different environments
+python>=3.8,<3.12
